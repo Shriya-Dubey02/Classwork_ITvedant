@@ -1,0 +1,33 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: auto;
+}
+.para{
+    background-color: palegreen;
+}
+.para span{
+    background-color: antiquewhite;
+    display: inline-block;
+    /* display : block is used to convert it into block element */
+    height: 50px;
+}
+h1{
+    background-color: aquamarine;
+    display: inline-block;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    background-color: yellow;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 25px ;
+    color: red;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    /* box sizing is used when the height of the box is to be kept constant while applying padding */
+    /* HW */
+    
+}

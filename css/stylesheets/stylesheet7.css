@@ -1,0 +1,23 @@
+h1{
+    /*            x    y   blur   color */
+    text-shadow: 10px 10px 10px grey;
+    border: 3px double gold;
+    padding: 50px 300px 100px 100px;
+}
+.box{
+   
+    border: 5px double blue;
+    padding: 30px;
+}
+
+.box p{
+    border: 2px solid red;
+    padding: 20px;
+}
+
+h3{
+    border: 2px dotted red;
+    height: 70px;
+    padding: 40px;
+    box-sizing: border-box;
+}

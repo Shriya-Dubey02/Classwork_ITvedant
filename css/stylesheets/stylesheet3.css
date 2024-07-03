@@ -1,0 +1,17 @@
+/* descendent selector */
+
+/* .box p{
+    background-color: red;
+} */
+ /* child selector */
+/* .box>p{
+    background-color: red;
+} */
+
+/* ~ this sign selects only the siblings div
+div and p are child of body tag . + sign indicates only single p */
+div~p{
+    background-color: aqua;
+
+
+}

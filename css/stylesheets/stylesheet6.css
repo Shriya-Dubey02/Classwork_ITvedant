@@ -1,0 +1,36 @@
+.para{
+    background-color: aqua;
+    font-size: 30px;
+    color: chocolate;
+    width: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#para2{
+    text-align: right;
+    letter-spacing: 3px;
+}
+#para3{
+    text-align: center;
+    line-height: 30px;
+}
+#para4{
+    text-align: justify;
+}
+h1{
+    /* shorthand property */
+    /* dashed is type of underline
+    5px is width and red is the color of underline */
+    text-decoration: 5px line-through dashed red;
+    /* overline,underline,line-through are the types of line */
+
+}
+#para1{
+    word-spacing: 30px;
+}
+
+#para5{
+    font-weight: bold;
+}
+#para6{
+    font-style:italic;
+}

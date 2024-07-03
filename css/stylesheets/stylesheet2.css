@@ -1,0 +1,21 @@
+.box{
+    /* solid dashed double dotted */
+    border: 2px dashed red;
+    height: 70px;
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: grey;
+}
+#box3{
+    background-color: black;
+}
+#box4{
+    background-color: pink;
+}
+#box5{
+    background-color: yellow;
+}

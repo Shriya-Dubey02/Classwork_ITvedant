@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    /* relative means it will move from its original position  */
+    position: sticky;
+    /* absolute is measured from corners */
+    /* fixed means original position */
+    /* sticky moves along with the webpage it is the combination of fixed and relative  */
+    
+   
+}
+#box1{
+    background-color: aqua;
+    /* left: 50px; */
+    top: 20px;
+    z-index: 3;
+    /* z-index property is used for overlapping the boxes */
+}
+#box2{
+    background-color: blue;
+    /* left: 100px; */
+    top: 40px;
+    z-index: 2;
+}
+#box3{
+    background-color: chocolate;
+    /* left: 200px;
+    top: -50px; */
+    top: 60px;
+    z-index: 1;
+    
+}

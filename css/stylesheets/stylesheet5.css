@@ -1,0 +1,14 @@
+p::first-line{
+    background-color: blueviolet;
+}
+p::first-letter{
+    font-size: 80px;
+}
+/* even and odd for alternate style and no. for specific style */
+li:nth-child(even){
+    color: aqua;
+    font-size: 40px;
+}
+li:first-child{
+    color:bisque;
+}

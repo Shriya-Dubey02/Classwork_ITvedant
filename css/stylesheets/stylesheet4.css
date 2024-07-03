@@ -1,0 +1,15 @@
+/* color of the link is changed after visiting the link  */
+a:visited{
+    color: aqua;
+
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: burlywood;
+}
+
+h1:hover{
+    background-color: aqua;
+}
