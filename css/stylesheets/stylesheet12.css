@@ -1,5 +1,5 @@
 div{
-    border: 2px solid black;
+    border: 2px solid beige;
 }
 
 #box1{
@@ -13,4 +13,8 @@ div{
 }
 body{
     background-image: url("/img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: center 100px;
+
 }
