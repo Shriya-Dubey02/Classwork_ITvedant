@@ -1,0 +1,39 @@
+.container{
+    background-color: cornflowerblue;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 6fr 3fr 1fr;
+    /* used for width */
+    /* fr for fraction means ratio */
+    grid-template-rows: 6fr 2fr 5fr ;
+    /* used for height */
+    grid-row-gap: 30px;
+    /* creates gaps between rows */
+    grid-column-gap: 30px;
+     /* creates gaps between columns */
+
+    
+
+}
+.box{
+    background-color: rgb(9, 241, 98);
+    border: 3px solid black;
+    color: brown;
+  
+}
+
+#box1{
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+#box2{
+    background-color: chocolate;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}

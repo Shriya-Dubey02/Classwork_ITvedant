@@ -1,0 +1,30 @@
+/* media is used for applying css to specific width,heigth of webpage */
+/* ALways keep the higher values on top */
+@media screen and (max-width:800px) {
+    body{
+        background-color: rgb(44, 208, 120);
+    }
+    h1{
+        font-size: 1000px;
+    }
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 500px;
+    }
+}
+@media screen and (max-width:300px) {
+    body{
+        background-color: blue;
+
+    }
+    h1{
+        font-size: 50px;
+    }
+    img{
+        visibility: hidden;
+    }
+}
